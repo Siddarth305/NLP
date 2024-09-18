@@ -28,7 +28,7 @@ print("Word Tokens:", word_tokens)
 sentence_tokens = sent_tokenize(text)
 print("Sentence Tokens:", sentence_tokens)
 
-#whitespace
+#whitespaces
 text = "Tokenization is the first step in NLP."
 whitespace_tokens = text.split()
 print("Whitespace Tokens:", whitespace_tokens)
